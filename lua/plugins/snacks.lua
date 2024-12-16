@@ -7,8 +7,9 @@ return {
       enabled = true,
       timeout = 3000,
     },
+    wrap = { enabled = true },
     quickfile = { enabled = true },
-    scroll = { enabled = true },
+    scroll = { enabled = false }, -- Disable smooth animation by default
     statuscolumn = { enabled = true },
     words = { enabled = true },
     styles = {
